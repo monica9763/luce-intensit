@@ -15,8 +15,8 @@ basic.forever(function () {
                 . # . # .
                 # . . . #
                 `)
+        } else {
+            basic.showIcon(IconNames.Rollerskate)
         }
-    } else {
-        basic.showIcon(IconNames.Rollerskate)
     }
 })
